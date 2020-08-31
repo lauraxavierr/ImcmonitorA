@@ -1,10 +1,10 @@
 class TesteSimples{
 
-public void executar(){
+public void executar() {
 
-Atleta atleta = new atleta();
-atleta.setnome("Laura");
-atleta.setidade(19);
+Atleta atleta = new Atleta();
+atleta.setNome("Laura");
+atleta.setIdade(19);
 
 System.out.println("Nome:  "  + atleta.getNome());
 System.out.println("Idade: " + atleta.getIdade());
