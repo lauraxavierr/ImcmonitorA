@@ -1,23 +1,30 @@
 class testeunitario{
 
+  public void executarAll(){
+
+    this.testNome();
+    this.testIdade();
+  }
+
   public void testNome(){
 
-    Atleta atleta = new atleta();
-    atleta.setNome("LauraXiz");
+    Atleta atleta = new Atleta();
+    atleta.setNome("ABC");
 
-    if (atleta.getNome()  != "ABC")
-    Sytem.out.prinln("erro! falha!");
+    if (!atleta.getNome().equals("ABC"))
+    System.out.println("erro! falha!");
 
   }
 
   public void testIdade(){
 
-    Atleta atleta = new atleta();
+    Atleta atleta = new Atleta();
     atleta.setIdade(10);
 
-    if (atleta.getIdade()  != "10")
-    Sytem.out.prinln("erro! falha no campo idade!");
+    if (atleta.getIdade()  != 10)
+    System.out.println("erro! falha no campo idade!");
 
   }
+  
 
 }
