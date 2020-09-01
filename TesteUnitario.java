@@ -1,4 +1,4 @@
-class testeunitario{
+class TesteUnitario{
 
   public void executarAll(){
 
