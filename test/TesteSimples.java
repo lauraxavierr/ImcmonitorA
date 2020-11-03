@@ -3,7 +3,7 @@ class TesteSimples{
 public void executar() {
 
 Atleta atleta = new Atleta();
-atleta.setNome("Laura");
+atleta.setNome("Laura Xavier");
 atleta.setIdade(19);
 
 System.out.println("Nome:  "  + atleta.getNome());
