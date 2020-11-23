@@ -8,8 +8,8 @@ public void setNome(String n) {
  nome = n;
 }
 
-public void setIdade(int id) {
- idade = id;
+public void setIdade(int n) {
+ idade = n;
 }
 
 public String getNome() {
